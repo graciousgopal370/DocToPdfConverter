@@ -8,7 +8,7 @@ const path=require("path"); //for aquiring path for input
 const PORT=3000;
 app.use(cors());
 app.get('/', (req, res) => {
-  res.send('Hello Amresh!')
+  res.send('Hello Gopal!')
 })
 
 //setting up the file storage using multer
